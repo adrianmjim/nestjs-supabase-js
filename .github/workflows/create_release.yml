@@ -19,7 +19,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup PNPM
-        uses: pnpm/action-setup@v4.1.0
+        uses: pnpm/action-setup@v4.2.0
         with:
           version: latest
 
